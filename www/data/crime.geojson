@@ -1,0 +1,119 @@
+{
+	"type": "FeatureCollection",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+
+	"features": [{
+		"type": "Feature",
+		"properties": {
+			"IncidntNum": "131098754",
+			"Category": "ASSAULT",
+			"Descript": "AGGRAVATED ASSAULT WITH BODILY FORCE",
+			"DayOfWeek": "Tuesday",
+			"Date": "12\/31\/2013 08:00:00 AM +0000",
+			"Time": "21:33",
+			"PdDistrict": "CENTRAL",
+			"Resolution": "NONE",
+			"Address": "COLUMBUS AV \/ KEARNY ST",
+			"Location": "(37.7969085528868, -122.405291680009)"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.405291680009, 37.796908552886798]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"IncidntNum": "140001104",
+			"Category": "BURGLARY",
+			"Descript": "BURGLARY, FORCIBLE ENTRY",
+			"DayOfWeek": "Tuesday",
+			"Date": "12\/31\/2013 08:00:00 AM +0000",
+			"Time": "19:45",
+			"PdDistrict": "CENTRAL",
+			"Resolution": "NONE",
+			"Address": "100 Block of GREENWICH ST",
+			"Location": "(37.8032004122798, -122.402591360982)"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.402591360982001, 37.8032004122798]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"IncidntNum": "140003310",
+			"Category": "LARCENY\/THEFT",
+			"Descript": "PETTY THEFT OF PROPERTY",
+			"DayOfWeek": "Tuesday",
+			"Date": "12\/31\/2013 08:00:00 AM +0000",
+			"Time": "13:30",
+			"PdDistrict": "INGLESIDE",
+			"Resolution": "NONE",
+			"Address": "4900 Block of MISSION ST",
+			"Location": "(37.7193144434831, -122.438907777456)"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.438907777455995, 37.7193144434831]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"IncidntNum": "140007629",
+			"Category": "VEHICLE THEFT",
+			"Descript": "STOLEN AUTOMOBILE",
+			"DayOfWeek": "Tuesday",
+			"Date": "12\/31\/2013 08:00:00 AM +0000",
+			"Time": "20:00",
+			"PdDistrict": "INGLESIDE",
+			"Resolution": "NONE",
+			"Address": "CAYUGA AV \/ NAVAJO AV",
+			"Location": "(37.7193830559103, -122.443086345466)"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.443086345466, 37.719383055910299]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"IncidntNum": "140003398",
+			"Category": "VANDALISM",
+			"Descript": "MALICIOUS MISCHIEF, TIRE SLASHING",
+			"DayOfWeek": "Tuesday",
+			"Date": "12\/31\/2013 08:00:00 AM +0000",
+			"Time": "17:30",
+			"PdDistrict": "INGLESIDE",
+			"Resolution": "NONE",
+			"Address": "700 Block of GENEVA AV",
+			"Location": "(37.7178185786557, -122.442365045651)"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.442365045651002, 37.717818578655702]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"IncidntNum": "130830656",
+			"Category": "DRUG\/NARCOTIC",
+			"Descript": "POSSESSION OF COCAINE",
+			"DayOfWeek": "Tuesday",
+			"Date": "10\/01\/2013 07:00:00 AM +0000",
+			"Time": "19:00",
+			"PdDistrict": "SOUTHERN",
+			"Resolution": "ARREST, BOOKED",
+			"Address": "MOSS ST \/ HOWARD ST",
+			"Location": "(37.7784167763222, -122.408835317663)"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.408835317663005, 37.778416776322203]
+		}
+	}]
+}
