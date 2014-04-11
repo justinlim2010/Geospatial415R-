@@ -1,0 +1,10 @@
+Package: Geospatial415R-
+Type: Package
+Title: Package for Need For Speed Web Application
+Version: 1.0
+Date: 2014-03-31
+Author: SIS IS415 - Team Traffic King
+Maintainer: No One <No_One@nodomain.net>
+Depends: R (>= 3.0.3), httr, maptools, GISTools, spatstat
+Description: Provide function for Need For Speed Web Application
+License: GPL (>= 2)

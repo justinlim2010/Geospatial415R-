@@ -1,0 +1,16 @@
+{
+    "contents" : "# Function to convert to GeoJSON\ntogeojson <- function(file, writepath = \"~\") {\n  require(httr)\n  \n  url <- \"http://ogre.adc4gis.com/convert\"\n  tt <- POST(url, body = list(\n    upload = upload_file(file),\n    sourceSrs = \"EPSG:3414\",\n    targetSrs = \"EPSG:4326\"\n  )\n  )\n  out <- content(tt, as = \"text\")\n  #fileConn <- file(writepath)\n  #writeLines(out, fileConn)\n  #close(fileConn)\n}",
+    "created" : 1396270232838.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2346410879",
+    "id" : "45440453",
+    "lastKnownWriteTime" : 1396270235,
+    "path" : "D:/prog/R/needForSpeed/R/needForSpeed.R",
+    "project_path" : "R/needForSpeed.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
